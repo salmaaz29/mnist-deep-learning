@@ -13,7 +13,7 @@ Ce travail est organisé en deux parties :
 ## Structure du projet
 
 ```text
-Deep-Learning/
+mnist-deep-learning/
 │
 ├── README.md
 │
