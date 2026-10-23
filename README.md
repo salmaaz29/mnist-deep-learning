@@ -85,10 +85,18 @@ Le tableau suivant présente les performances obtenues par les différents modè
 | AlexNet | 97,41 % | 0,9741 | 0,0873 |
 | VGG16 | 97,72 % | 0,9772 | 0,0683 |
 
-**Remarque :** les modèles n'ont pas tous été évalués sur le même nombre d'images :
+**Remarque concernant les conditions expérimentales :**
+
+Les modèles n'ont pas tous été évalués sur le même nombre d'images :
 - CNN et ViT : 10 000 images.
 - Faster R-CNN : 4 000 images.
 - AlexNet et VGG16 : 3 200 images.
+
+Cette différence s'explique par les contraintes liées à l'environnement d'exécution Kaggle, notamment les limites de quota, les ressources computationnelles disponibles et le temps d'exécution. En effet, certaines architectures, particulièrement Faster R-CNN et les modèles préentraînés nécessitant un redimensionnement des images, demandent davantage de ressources et de temps de calcul.
+
+Afin de respecter ces contraintes et de pouvoir réaliser les expérimentations dans les limites disponibles, nous avons adapté le nombre d'images utilisées pour l'évaluation de certains modèles.
+
+**Par conséquent, les résultats obtenus permettent une comparaison indicative des architectures, mais ne constituent pas une comparaison réalisée dans des conditions expérimentales strictement identiques.**
 
 La comparaison des performances reste donc indicative et les résultats ne sont pas issus d'une évaluation strictement identique.
 
