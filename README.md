@@ -22,8 +22,6 @@ mnist-deep-learning/
 └── partie2_atelier2.ipynb
 ```
 
-*Remarque : les noms des notebooks sont donnés à titre d'exemple. Il faut les adapter aux noms réels de tes fichiers.*
-
 ## Jeu de données : MNIST
 
 Le jeu de données MNIST est utilisé pour entraîner et évaluer les différents modèles.
